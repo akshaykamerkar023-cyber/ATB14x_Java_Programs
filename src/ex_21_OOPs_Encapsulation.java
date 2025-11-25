@@ -1,18 +1,18 @@
 public class ex_21_OOPs_Encapsulation {
     public static <VWOLogin> void main(String[] args) {
-        public class Lab189_Ecap_Demo {
-            public static void main(String[] args) {
-
-                VWOLogin vwoLogin = new VWOLogin("admin", "pass123");
-                System.out.println(vwoLogin.password);
-                vwoLogin.password = "345";
-                System.out.println(vwoLogin.password);
-
-                GoodVWOLogin vwoLogin1 = new GoodVWOLogin("admin", "pwd123");
-//        System.out.println(vwoLogin1.password);
-                String pass = vwoLogin1.getPassword();
-                System.out.println(pass);
-                vwoLogin1.setPassword("Pramodchild@123", false);
+//        public class Lab189_Ecap_Demo {
+//            public static void main(String[] args) {
+//
+//                VWOLogin vwoLogin = new VWOLogin("admin", "pass123");
+//                System.out.println(vwoLogin.password);
+//                vwoLogin.password = "345";
+//                System.out.println(vwoLogin.password);
+//
+//                GoodVWOLogin vwoLogin1 = new GoodVWOLogin("admin", "pwd123");
+////        System.out.println(vwoLogin1.password);
+//                String pass = vwoLogin1.getPassword();
+//                System.out.println(pass);
+//                vwoLogin1.setPassword("Pramodchild@123", false);
 
 
             }
@@ -62,4 +62,3 @@ public class ex_21_OOPs_Encapsulation {
 
 
         }
-    }
