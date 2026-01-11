@@ -13,6 +13,6 @@ public class Lab196_Static {
 }
 
 class Automation{
-    static String driver = "FireFox";
+    public static String driver = "FireFox";
         static String driver2;
         }
